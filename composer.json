@@ -1,0 +1,16 @@
+{
+  "name": "user/authenticationsystem",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "User\\AuthenticationSystem\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ahmed Esam Hasan",
+      "email": "ahmed_essamhassan@yahoo.com"
+    }
+  ],
+  "require": {}
+}
