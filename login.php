@@ -7,8 +7,6 @@ use User\AuthenticationSystem\config\Config;
 use User\AuthenticationSystem\layout\Footer;
 
 $conn = Config::getConnection();
-
-// ✅ طباعة الهيدر
 Header::render();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
